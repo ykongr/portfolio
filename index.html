@@ -7,9 +7,118 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0, user-scalable=yes"
     />
+    <link rel="stylesheet" href="index.css">
   </head>
   <body>
-    <h1>Portfolio</h1>
-
-  </body> <!-- ここまで本文終了 -->
+    <header>
+      <h3 class="name">Portfolio<h3>
+      <nav>
+        <h3 class="navigate"><a href="#about">About</a><h3>
+        <h3 class="navigate"><a href="#works">Works</a><h3>
+        <h3 class="navigate"><a href="#skills">Skills</a><h3>
+      <nav>
+    </header>
+    <div class="main">
+      <h1>Portfolio</h1>
+      <div id="about">
+        <h1 class="title">About</h1>
+        <p>名前:窪田紘己</p>
+        <p>所属:大阪公立大学工業高等専門学校 2年Iコース</p>
+      </div>
+      <div id="works">
+        <h1 class="title">Works</h1>
+        <div class="work">
+          <div class="image">
+          <img src="picture/kosen-fes-site.png" width="200px" height="400px">
+          </div>
+          <div class="text">
+            <h2>高専祭特設サイト</h2>
+            <p>第60回公立大高専祭の際に作成した特設サイト。7人のチームで作成し、Typescriptを使用した。高専祭の展示や食品バザーがまとめてあるページ、ステージイベントの一覧が見られるページなどがある。私は一部のコンポーネント作成とレイアウトの調整を
+              担当した。
+            </p>
+          </div>
+        </div>
+        <div class="work">
+          <div class="image">
+            <img src="picture/kosen-fes-apri.png" width="200px" height="400px">
+            </div>
+            <div class="text">
+                <h2>画像認識アプリ</h2>
+                <p>第60回公立大高専祭の際に作成した画像を識別して物体の名前を英語で表示させるアプリ。
+                </p>
+            </div>
+          </div>
+          <div class="work">
+            <div class="image">
+              <img src="picture/probability-calculator.png" width="250px" height="350px">
+              </div>
+              <div class="text">
+                  <h2>カードゲーム確率計算機</h2>
+                  <p>google colabで作成した確率計算機。二種類を同時に引く確率や、1種類目を引いたときに追加で何枚か引いて二種類がそろう確率といった、カードゲームをする人が欲しい確率を求めることができる。
+                  </p>
+                  <p class="link"><a href="https://github.com/ykongr/probability-calculator">githubはこちら</a></p>
+              </div>
+            </div>
+        </div>
+        <div id="skills">
+          <h1 class="title">Skills</h1>
+          <div class="icons">
+            <div class="skill">
+              <div class="picture">
+                <img src="picture/icons8-python-144.png">
+              </div>
+              <h3 class="banner">
+                python
+              </h3>
+              <p>上記の確率計算機や簡単なグラフが作れる程度。</p>
+            </div>
+            <div class="skill">
+              <div class="picture">
+                <img src="picture/icons8-html-5-144.png">
+              </div>
+              <h3 class="banner">
+                html
+              </h3>
+              <p>このポートフォリオを作れる程度。</p>
+            </div>
+            <div class="skill">
+              <div class="picture">
+                <img src="picture/icons8-css3-144.png">
+              </div>
+              <h3 class="banner">
+                css
+              </h3>
+              <p>このポートフォリオを作れる程度。</p>
+            </div>
+            <div class="skill">
+              <div class="picture">
+                <img src="picture/icons8-javascript-144.png">
+              </div>
+              <h3 class="banner">
+                javascript
+              </h3>
+              <p>簡単なサイトのページが作れる程度。</p>
+            </div>
+            <div class="skill">
+              <div class="picture">
+                <img src="picture/icons8-react-native-144.png">
+              </div>
+              <h3 class="banner">
+                react
+              </h3>
+              <p>上記の特設サイトの配置のコンポーネントを作れる程度。</p>
+            </div>
+            <div class="skill">
+              <div class="picture">
+                <img src="picture/icons8-タイプスクリプト-144.png">
+              </div>
+              <h3 class="banner">
+                typescript
+              </h3>
+              <p>上記の特設サイトの簡単な部分が書ける程度。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+  </body> 
 </html>

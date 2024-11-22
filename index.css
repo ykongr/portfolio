@@ -1,0 +1,84 @@
+body{
+    background-color: azure;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: black;
+    color: azure;
+    display: flex;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+.navigate h3{
+    margin: 0;
+    color: azure;
+}
+.main{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+.name{
+    margin-right: auto;
+}
+.navigate a:link,.navigate a:visited{
+    margin-right: 20px;
+    flex-flow: column;
+    color: azure;
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+    color: azure;
+}
+#about{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding-top: 50px;
+}
+#works{
+    padding-top: 50px;
+}
+.work{
+    display: flex;
+}
+.title{
+    text-align: center;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: 10px;
+}
+.text{
+    width: 50%;
+    padding-right: 150px;
+}
+.link a:link,.link a:visited{
+    color: black;
+}
+#skills{
+    padding-top: 50px;
+}
+.icons{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.skill{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+.banner{
+    margin-top: -5px;
+}
