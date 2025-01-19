@@ -82,3 +82,7 @@ nav{
 .banner{
     margin-top: -5px;
 }
+.pictures{
+    display :grid;
+    grid-template-columns: auto auto ;
+}
